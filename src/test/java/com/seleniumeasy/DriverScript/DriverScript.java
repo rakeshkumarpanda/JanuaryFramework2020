@@ -18,6 +18,7 @@ public class DriverScript extends BrowserHandling
 	public void sampleFormTest(String firstName, String lastName, String email, String phone, String state) throws InterruptedException
 	{
 		businessFunctionality.submitForm(firstName, lastName, email, phone, state);
+		System.out.println("Git Pull");
 	}
 	
 }
